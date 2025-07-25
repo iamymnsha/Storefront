@@ -12,7 +12,7 @@ console.log(process.env.PORT); // Log the port to verify it's loaded correctly
 const port = process.env.PORT || 3001;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Backen');
+  res.send('Hello from Backend');
 });
 
 // Start the server and listen on Port
